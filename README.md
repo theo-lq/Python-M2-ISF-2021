@@ -16,6 +16,10 @@ Cours de Python pour l'Université Paris-Dauphine, Master 280, promotion 2021-20
 * **Feigenbaum Tree** : trace l'arbre de Feigenbaum en réutilisant des fonctions développées dans le premier fichier.
 
 
+## Séance 4
+* **Payoff** : permet de visualiser à partir d'une liste d'opérations le profil de gain/perte d'une stratégie d'option. Les données sont prise à partir de données réelle via YahooFinance. Un exemple du rendu est disponible dans le fichier *Résultats visuel*. Le but de la séance est de maîtriser pleinement les librairies de visualisation et de commencer la compréhension visuelle et sensible des stratégies d'options pour les futurs cours du master.
+
+
 
 ### Bonus
 Notions intéressantes que nous aurions pu traiter en cours si nous avions plus de temps, par défaut et pour un travail personnel :
