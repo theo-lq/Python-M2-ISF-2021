@@ -16,9 +16,6 @@ def generate_brownian_motion(draw_number, step, initial_value):
 
 
 
-#brownian = generate_brownian_motion(10, 500, 100)
-#plt.plot(brownian)
-#plt.show()
 
 
 def generate_correlated_brownian_motion(step, initial_value, gamma):
@@ -30,28 +27,6 @@ def generate_correlated_brownian_motion(step, initial_value, gamma):
     brownian = initial_gaussian.cumsum(axis=0)
     correlated_brownian = correlated_gaussian.cumsum(axis=0)
     return brownian, correlated_brownian
-
-
-
-
-
-
-
-#correlations = [-0.5, 0.3, 0.5, 0.8]
-#for index in range(len(correlations)):
-    #plt.subplot(2, 2, index+1)
-    #W, B = generate_correlated_brownian_motion(500, 100, correlations[index])
-
-    #plt.plot(W, c=sns.color_palette()[0], label="Initial")
-    #plt.plot(B, c=sns.color_palette()[2], label="Correlated")
-    #if index == 0:
-        #plt.legend()
-    #plt.title("Correlation : %0.2f" % correlations[index])
-    #plt.xticks(size="x-small")
-
-#plt.suptitle("Correlated brownian motion")
-#plt.show()
-
 
 
 
@@ -71,11 +46,6 @@ def put(strike, premium=0, type="buy"):
     return put_function
 
 
-
-
-#brownian = generate_brownian_motion(100, 1000, 100)
-#strike = 120
-#call_function = call(strike)
 
 
 
